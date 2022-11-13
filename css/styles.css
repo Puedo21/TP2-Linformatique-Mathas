@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+.main{
+    min-width: 500px;
+    max-width: 1000px;
+    background-color: #403D39;
+    margin: auto;
+
+}
+
+.hautDePage{
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+}
+.MenuLayout{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MenuLayout a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 1.6em;
+    font-family: 'Heebo', sans-serif;
+}
+.MenuLayout a:hover{
+    color: #EB5E28;
+}
+.MenuLayout .selected{
+    color: #52b788;
+}
+.iconOrdinateur{
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.separation{
+    margin-top: 60px;
+    color: #403D39 ;
+}
+.titre{
+    background-color: #252422;
+    font-family: 'Heebo', sans-serif;
+    color: #FFFCF2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+.gridImageTexte{
+    display: grid;
+    grid-template-columns:10px 50% auto;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.fontInformation{
+    font-size: 1.5em;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+.li{
+    margin-top: 10px;
+}
+.color{
+    color: #EB5E28;
+}
+.image{
+    width: 500px;
+    height: 350px;
+}
+.informationLien a{
+    color: #EB5E28;
+    text-decoration:underline;
+}
+.youtubeCybersecurite{
+    margin-left: 100px;
+}
+.displayAide{
+    display: grid;
+    grid-template-columns: 10px 300px auto;
+}
+.imageProfil{
+    border-radius: 360px;
+    height: 300px;
+    width: 300px;
+    margin-left:50px;
+    margin-top: 30px;
+}
+.fontInformationPersonnel{
+    font-family: 'Kalam', cursive;
+    color: #EB5E28;
+    font-size: 2em;
+    margin: auto;
+}
